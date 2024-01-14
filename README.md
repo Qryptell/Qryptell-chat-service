@@ -21,7 +21,7 @@ The LunarLoom Chat Service manage messages and send it to appropriate web socket
 
 LunarLoom Chat Service - Chat Service for LunarLoom End To End Encrypted Chat App.
 
-Copyright (C) 2023  LunarLoom
+Copyright © 2023  LunarLoom
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
