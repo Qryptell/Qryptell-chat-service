@@ -6,7 +6,7 @@ LunarLoom Web Socket Service - WebSocket Service for LunarLoom End To End Encryp
 package main
 
 import (
-	"github.com/LoomingLunar/LunarLoom-chat-service/connection"
+	"github.com/LoomingLunar/LunarLoom-chat-service/pkg/redis"
 	"github.com/joho/godotenv"
 )
 
@@ -14,6 +14,10 @@ func main() {
 	// Loading enviornment variables
 	godotenv.Load(".env")
 
-	// Connecting database
-	connection.RedisSetUp()
+	// Connecting redis
+	redis.SetUp()
+
+	// Keep server running
+	var ch = make(chan bool)
+	<-ch
 }
