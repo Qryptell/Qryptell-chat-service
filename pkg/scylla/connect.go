@@ -22,6 +22,8 @@ func SetUp() {
 		panic(err)
 	}
 	Session = session
+
+	createTables()
 }
 
 // Creating scylladb cluster
