@@ -19,6 +19,4 @@ func SetUp() {
 		Addr: port,
 	})
 	Redis = rdb
-
-	ListenChannels()
 }
