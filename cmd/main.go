@@ -1,10 +1,12 @@
 /*
-				Copyright © 2023 LunarLoom
+	Copyright © 2023 LunarLoom
+
 LunarLoom Chat Service - Chat Service for LunarLoom End To End Encrypted Chat App
 */
 package main
 
 import (
+	"github.com/LoomingLunar/LunarLoom-chat-service/internal/handlers"
 	"github.com/LoomingLunar/LunarLoom-chat-service/pkg/redis"
 	"github.com/LoomingLunar/LunarLoom-chat-service/pkg/scylla"
 	"github.com/joho/godotenv"
@@ -18,7 +20,5 @@ func main() {
 	redis.SetUp()
 	scylla.SetUp()
 
-	// Keep server running
-	var ch = make(chan bool)
-	<-ch
+	handlers.HandleUserMessages()
 }
