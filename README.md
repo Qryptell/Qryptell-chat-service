@@ -1,6 +1,6 @@
-# LunarLoom Chat Service
+# Qryptell Chat Service
 
-The LunarLoom Chat Service manage messages and send it to appropriate web socket server.
+The Qryptell Chat Service manage messages and send it to appropriate web socket server.
 
 ## Features 
 
@@ -19,9 +19,9 @@ The LunarLoom Chat Service manage messages and send it to appropriate web socket
 
 ## LICENSE
 
-LunarLoom Chat Service - Chat Service for LunarLoom End To End Encrypted Chat App.
+Qryptell Chat Service - Chat Service for Qryptell End To End Encrypted Chat App.
 
-Copyright © 2023  LunarLoom
+Copyright © 2023  Qryptell
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

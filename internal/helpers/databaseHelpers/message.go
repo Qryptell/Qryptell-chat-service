@@ -3,8 +3,8 @@ package databasehelpers
 import (
 	"fmt"
 
-	"github.com/LoomingLunar/LunarLoom-chat-service/pkg/message"
-	"github.com/LoomingLunar/LunarLoom-chat-service/pkg/scylla"
+	"github.com/Qryptell/Qryptell-chat-service/pkg/message"
+	"github.com/Qryptell/Qryptell-chat-service/pkg/scylla"
 )
 
 // Inserting text message to database

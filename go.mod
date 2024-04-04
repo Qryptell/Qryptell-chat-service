@@ -1,4 +1,4 @@
-module github.com/LoomingLunar/LunarLoom-chat-service
+module github.com/Qryptell/Qryptell-chat-service
 
 go 1.21.5
 

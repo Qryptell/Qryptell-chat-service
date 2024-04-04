@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/LoomingLunar/LunarLoom-chat-service/pkg/message"
+	"github.com/Qryptell/Qryptell-chat-service/pkg/message"
 )
 
 // Read messages from channel

@@ -1,14 +1,14 @@
 /*
-	Copyright © 2023 LunarLoom
+	Copyright © 2023 Qryptell
 
-LunarLoom Chat Service - Chat Service for LunarLoom End To End Encrypted Chat App
+Qryptell Chat Service - Chat Service for Qryptell End To End Encrypted Chat App
 */
 package main
 
 import (
-	"github.com/LoomingLunar/LunarLoom-chat-service/internal/handlers"
-	"github.com/LoomingLunar/LunarLoom-chat-service/pkg/redis"
-	"github.com/LoomingLunar/LunarLoom-chat-service/pkg/scylla"
+	"github.com/Qryptell/Qryptell-chat-service/internal/handlers"
+	"github.com/Qryptell/Qryptell-chat-service/pkg/redis"
+	"github.com/Qryptell/Qryptell-chat-service/pkg/scylla"
 	"github.com/joho/godotenv"
 )
 

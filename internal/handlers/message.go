@@ -1,9 +1,9 @@
 package handlers
 
 import (
-	databasehelpers "github.com/LoomingLunar/LunarLoom-chat-service/internal/helpers/databaseHelpers"
-	"github.com/LoomingLunar/LunarLoom-chat-service/pkg/message"
-	"github.com/LoomingLunar/LunarLoom-chat-service/pkg/redis"
+	databasehelpers "github.com/Qryptell/Qryptell-chat-service/internal/helpers/databaseHelpers"
+	"github.com/Qryptell/Qryptell-chat-service/pkg/message"
+	"github.com/Qryptell/Qryptell-chat-service/pkg/redis"
 )
 
 // Handling messages send by the user

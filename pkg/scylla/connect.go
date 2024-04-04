@@ -4,7 +4,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/LoomingLunar/LunarLoom-chat-service/util"
+	"github.com/Qryptell/Qryptell-chat-service/util"
 	"github.com/gocql/gocql"
 )
 
